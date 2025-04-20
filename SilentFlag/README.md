@@ -1,14 +1,17 @@
-# SilentFlag – User Behavior Analytics for Insider Threats
+# SilentFlag – Employee Behavior Analytics for Insider Threats
 
+About:
 SilentFlag monitors employee behavior and flags suspicious activity such as:
 - Large file downloads
 - Late-night system access
+- Detecting unauthorize application in system.
 
-## 🔧 Setup
+How it works?
+- Deploy the software into the system.
+- It will generate logs of the system in which the empolyee is working in.
+- Those logs would be analyzed by the software and will detect suspicious activites.
 
-```bash
-git clone <your_repo>
-cd SilentFlag
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-pip install -r requirements.txt
+Features:
+- User friendly interface.
+- Dashboard analysis by Admin.
+- Multiple Admin Operating.
